@@ -1,144 +1,72 @@
-\# Retail Sales Analytics Database
+# Retail Sales Analytics Database
 
-
-
-\## Project Overview
-
-
+## Project Overview
 
 This project is a relational database system developed using MySQL to analyze retail sales data. The database stores customer, product, order, and regional information and provides business insights through SQL queries.
 
-
-
-\## Database Design
-
-
+## Database Design
 
 The project contains five relational tables:
 
-
-
-\- Customers
-
-\- Products
-
-\- Orders
-
-\- Order\_Details
-
-\- Regions
-
-
+- Customers
+- Products
+- Orders
+- Order_Details
+- Regions
 
 Relationships are implemented using Primary Keys and Foreign Keys.
 
+## Features
 
+- Customer Sales Analysis
+- Product Performance Analysis
+- Regional Revenue Analysis
+- Monthly Sales Trend Analysis
+- Category-wise Revenue Analysis
+- Sales Summary View
 
-\## Features
+## SQL Concepts Used
 
+- Joins
+- Aggregate Functions
+- GROUP BY
+- ORDER BY
+- Views
+- Foreign Keys
+- Primary Keys
 
+## Key Business Queries
 
-\- Customer Sales Analysis
-
-\- Product Performance Analysis
-
-\- Regional Revenue Analysis
-
-\- Monthly Sales Trend Analysis
-
-\- Category-wise Revenue Analysis
-
-\- Sales Summary View
-
-
-
-\## SQL Concepts Used
-
-
-
-\- Joins
-
-\- Aggregate Functions
-
-\- GROUP BY
-
-\- ORDER BY
-
-\- Views
-
-\- Foreign Keys
-
-\- Primary Keys
-
-
-
-\## Key Business Queries
-
-
-
-\### Top Selling Products
-
+### Top Selling Products
 Identifies the highest-selling products based on quantity sold.
 
-
-
-\### Top Customers
-
+### Top Customers
 Finds customers generating the highest revenue.
 
-
-
-\### Regional Revenue Analysis
-
+### Regional Revenue Analysis
 Determines which region contributes the most revenue.
 
-
-
-\### Monthly Sales Trend
-
+### Monthly Sales Trend
 Tracks sales performance over time.
 
-
-
-\### Category-wise Revenue
-
+### Category-wise Revenue
 Analyzes revenue contribution by product category.
 
-
-
-\## Database Schema
-
-
+## Database Schema
 
 The database consists of:
 
+- 1500 Customers
+- 100+ Products
+- 10000 Orders
+- 30000 Order Details
+- 10 Regions
 
+## Tools Used
 
-\- 1500 Customers
+- MySQL
+- MySQL Workbench
 
-\- 100+ Products
-
-\- 10000 Orders
-
-\- 30000 Order Details
-
-\- 10 Regions
-
-
-
-\## Tools Used
-
-
-
-\- MySQL
-
-\- MySQL Workbench
-
-
-
-\## Author
-
-
+## Author
 
 Akshat Joshi
-
